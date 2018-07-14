@@ -19,6 +19,7 @@ This readme assumes you have your developer environment ready to go and that you
 	```bash
 	$ npm update -g ask-cli
 	```
+If you get permissions errors you can try `sudo npm update -g ask-cli  --unsafe-perm`
 
 2. **Clone** the repository.
 
@@ -48,6 +49,7 @@ ASK CLI **will create the skill and the Lambda function for you**. The Lambda fu
 2. Deploy the skill and the Lambda function in one step by running the following command:
 
 	```bash
+	$ cd ../..
 	$ ask deploy
 	```
 
